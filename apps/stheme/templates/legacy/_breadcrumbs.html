@@ -1,0 +1,22 @@
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-legacy.yaml at line 834 on 2016-01-17 at 20:27:51 PST(GMT-0800)  #}
+
+<ul class="breadcrumbs">
+    <li><a href="/" title="eRacks Home Page">Home</a></li>
+    {% if breadcrumbs.real %}
+      <li>
+        <a href="#" title='{{title}}' class="current">
+          {% firstof name title page %}
+        </a>
+      </li>
+      {% else %}
+      {% for bc in breadcrumbs %}
+        <li>
+            <a href="{{ bc.url }}" title="{{ bc.title }}">
+                {{ bc.name }}
+            </a>
+        </li>
+      {% endfor %}
+    {% endif %}
+</ul>

@@ -1,0 +1,770 @@
+-   fields:
+        date_joined: 2009-10-15 12:36:12
+        email: joe@eracks.com
+        first_name: Joseph
+        groups: []
+        is_active: true
+        is_staff: true
+        is_superuser: true
+        last_login: 2015-11-01 12:26:07.579733
+        last_name: Wolff
+        password: pbkdf2_sha256$15000$s7moD0XDtQq8$Wisd6ar7/Y86NDySG6xPwAmsTF1fXrB6b4BOFcF5rgU=
+        user_permissions: []
+        username: joe
+    model: auth.user
+    pk: 2
+-   fields: {comments: Meep-meep., created: ! '2012-07-19 14:32:32.355567', department: Of
+            Redundancy department, email: joe@eracks.com, email2: '', mugshot: mugshots/6e9f208550.jpg,
+        organization: The Libre Group, phone: 408-354-4325, phone2: '', privacy: closed,
+        published: true, title: Chief cook and bottle washer, updated: ! '2015-09-03
+            10:27:52.106241', user: 2}
+    model: customers.customer
+    pk: 2
+-   fields: {address1: 16861 Sheldon, address2: '', city: Los gatos, country: US,
+        created: ! '2012-07-19 14:32:32.412314', customer: 2, email: '', name: Joseph
+            Wolff, nickname: '', phone: '', published: true, state: CA, type: billing,
+        updated: ! '2015-09-03 10:27:52.784541', zip: '95030'}
+    model: customers.address
+    pk: 54276
+-   fields: {address1: 481 N Santa Cruz ave, address2: '', city: Los Gatos, country: US,
+        created: ! '2012-12-03 00:17:24.854081', customer: 2, email: '', name: Joe
+            Wolff, nickname: '', phone: '', published: true, state: AS, type: shipping,
+        updated: ! '2015-09-03 10:27:52.629355', zip: '95030'}
+    model: customers.address
+    pk: 54748
+-   fields: {agree_to_terms: true, bill_to_address: 54276, california_tax: null, cart: '[{''new_grid'':
+            False, ''weight'': 30, ''image'': None, ''_state'': <django.db.models.base.ModelState
+            object at 0xbb9550c>, ''qty'': 2, ''cost'': 490.0, ''baseprice'': 540.0,
+            ''id'': 43933, ''features'': u'''', ''sku'': u''NIMBUS'', ''title'': u'''',
+            ''comments'': u''\n\nScraped from Zope as of 2012-04-26\n\nScraped from
+            Zope as of 2012-05-01\n\nScraped from Zope as of 2012-05-04\n\nScraped
+            from Zope as of 2012-05-04\n\nScraped from Zope as of 2012-05-05\n\nScraped
+            from Zope as of 2012-05-19\n\nScraped from Zope as of 2012-05-19\n\nScraped
+            from Zope as of 2012-10-21\n\nScraped from Zope as of 2012-11-04'', ''blurb'':
+            None, ''updated'': datetime.datetime(2012, 11, 4, 20, 16, 7, 836767),
+            ''description'': u''\n<!-- now content page goes in this cell--> \n\n<!--
+            Begin AO751H desc-->\n<h5 class="xbig">eRacks/NIMBUS</h5>\n<table cellpadding="2"
+            width="100%" cellspacing="2" border="0">\n\n<tbody><tr>\n<td width="300"
+            align="center" valign="top">\n<img src="/images/products/nimbus/nimbus_500.jpeg"
+            title="eRacks/NIMBUS" alt="" border="0" width="500" height="500"/><p>\n<font
+            color="black" size="3" face="geneva,verdana,helvetica"><i>\n<a href="#photos"
+            onclick="$(&quot;#photos-tab&quot;).click();">more photos</a>\n\n</i></font></p><p>\n\n</p></td>\n\n<td
+            align="left" valign="top">\n<div class="small">\nThe eRacks/NIMBUS is
+            the Asus Eee PC 1215N netbook, configured with Linux to your specifications.\nAt
+            1366x768, it has a higher resolution than most netbooks, and an 12.1 inch
+            display.  \nA dual boot option is also available. Please specify OSes
+            and other customizations in the Notes field of your order. <p>\n\n</p></div>\n\n\n<div
+            class="small">\nThe base configuration includes: <br/>\n<p>\n\n<b>Processor:</b>
+            Intel\u017d Atom<sup>TM</sup> D525 Dual Core processor <br/>\n<b>Graphics:</b>NVIDIA\u017d
+            ION2<sup>TM</sup> Graphics w/ 512MB Dedicated Video Memory<br/>\n<b>Memory:</b>
+            2GB DDR2 SODIMM memory, Max Capacity upto 4GB<br/>\n\n<b>Display:</b>
+            12.1" LED-backlit WXGA screen (1366 x 768)<br/>\n\n<b>Hard Disk:</b> 250GB
+            5400rmp Hard Drive<br/>\n<b>Audio:</b>  Integrated Hi-Definition Audio
+            CODEC; Built-in Speakers and Microphone<br/>\n<b>Connectivity:</b> Fast
+            Ethernet; 802.11b/g/n Wireless LAN; Bluetooth 2.1 + EDR<br/>\n<b>Interface:</b>
+            3x USB 2.0 Ports; 1x VGA Port; 1x HDMI Port; 1x RJ45 LAN Port; 1x Microphone-in;
+            1x Headphone-out<br/>\n<b>Card Reader:</b>  3-in-1 Card Reader, Support
+            MMC/ SD/ SDHC<br/>\n<b>Camera:</b> Built-in 0.3 Megapixel Camera<br/>\n<b>Battery
+            Pack:</b>  6 cells 63Wh Lithium Battery, upto 6 hours<br/>\n\n<b>Color:</b>
+            black<br/>\n<b>Dimensions:</b> 296 x 203 x 23~37 mm<br/>\n<b>Weight:</b>
+            1.45 kg<br/>\n<b>Operating System:</b> Ubuntu Linux (or other, please
+            specify)</p><p>\n</p></div>\n</td></tr>\n<tr><td><center>\n</center>\n</td><td>\n\n<center><table><tbody><tr><td>\n<img
+            src="/images/products/nimbus/intel_atom.jpeg" title="" alt="" border="0"
+            width="100" height="123"/></td><td>\n<img src="/images/products/nimbus/ubuntu.png"
+            title="" alt="" border="0" width="210" height="62"/></td><td align="center">\n\n</td></tr></tbody></table></center>\n\n<p>\n\n</p><center>\n</center>\n</td>\n</tr>\n<tr><td
+            colspan="2">\n<font color="black" size="2" face="geneva,verdana,Helvetica">\nThis
+            configuration\''s price is \n<font color="blue">$540.\n</font>\n<p> \n\n</p></font><p><font
+            color="black" size="2" face="geneva,verdana,Helvetica"></font>\n</p><div
+            class="small">\n<p>Note: \n Quantities are limited; this will be sold
+            as available. Prices and availability are subject to change. \n \n<br/>Functionality
+            may be limited by operating system compatibility.\n</p></div></td></tr></tbody></table>\n<!--
+            End NIMBUS desc -->\n \n'', ''link'': None, ''sortorder'': 0, ''multiplier'':
+            None, ''totprice'': 540.0, ''baseoptions'': None, ''name'': u''eRacks/NIMBUS'',
+            ''created'': datetime.datetime(2011, 7, 8, 16, 31, 31, 824817), ''notes'':
+            '''', ''summary'': ''Default Configuration'', ''published'': True, ''category_id'':
+            41479, ''opts'': {''43937_1'': {''updated'': datetime.datetime(2009, 10,
+            21, 14, 46, 42, 51265), ''name'': u''Donation target'', ''created'': datetime.datetime(2009,
+            10, 21, 14, 46, 42, 51265), ''option_id'': 28982, ''price'': 0, ''required'':
+            False, ''_state'': <django.db.models.base.ModelState object at 0xbb957cc>,
+            ''selectedchoiceid'': 29002, ''qty'': 1, ''single'': False, ''product_id'':
+            43933, ''allowed_quantities'': u'''', ''published'': True, ''choices_orderby'':
+            u''cost'', ''defaultchoice_id'': 29002, ''choices'': {28984: {''comment'':
+            None, ''updated'': datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''Electronic
+            Frontier Foundation'', ''created'': datetime.datetime(2001, 1, 1, 0, 0),
+            ''price'': None, ''multiplier'': None, ''choicecategory_id'': 43920, ''cost'':
+            0.0, ''sortorder'': 20000, ''published'': None, ''supplier'': None, ''id'':
+            28984, ''blurb'': u''''}, 31930: {''comment'': None, ''updated'': datetime.datetime(2006,
+            5, 9, 20, 0, 17), ''name'': u''Other Open Source Project (please state
+            in Notes)'', ''created'': datetime.datetime(2006, 5, 9, 20, 0, 17), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43920, ''cost'': 0.0,
+            ''sortorder'': 20000, ''published'': None, ''supplier'': None, ''id'':
+            31930, ''blurb'': u''''}, 29002: {''comment'': None, ''updated'': datetime.datetime(2001,
+            1, 1, 0, 0), ''name'': u''No donation'', ''created'': datetime.datetime(2001,
+            1, 1, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43921, ''cost'': 0.0, ''sortorder'': 21000, ''published'': None, ''supplier'':
+            None, ''id'': 29002, ''blurb'': u''''}}, ''id'': 43937, ''defaultchoiceid'':
+            29002, ''_option_cache'': <Option: 4000: Donation target>}, ''43934_1'':
+            {''updated'': datetime.datetime(2009, 10, 21, 14, 46, 42, 51265), ''name'':
+            u''Operating System'', ''created'': datetime.datetime(2009, 10, 21, 14,
+            46, 42, 51265), ''option_id'': 7, ''price'': 0, ''required'': False, ''_state'':
+            <django.db.models.base.ModelState object at 0xbb9594c>, ''selectedchoiceid'':
+            35523, ''qty'': 1, ''single'': False, ''product_id'': 43933, ''allowed_quantities'':
+            u'''', ''published'': True, ''choices_orderby'': u''cost'', ''defaultchoice_id'':
+            35523, ''choices'': {25377: {''comment'': u'''', ''updated'': datetime.datetime(2012,
+            6, 5, 21, 14, 32, 883305), ''name'': u''Fedora Linux 17'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'': 950,
+            ''published'': True, ''supplier'': None, ''id'': 25377, ''blurb'': u''''},
+            35523: {''comment'': u'''', ''updated'': datetime.datetime(2012, 4, 30,
+            13, 44, 31, 539895), ''name'': u''Ubuntu Linux 12.04 LTS Desktop Edition'',
+            ''created'': datetime.datetime(2007, 8, 30, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'': 943,
+            ''published'': None, ''supplier'': None, ''id'': 35523, ''blurb'': u''''},
+            43965: {''comment'': u''comes with netbook'', ''updated'': datetime.datetime(2009,
+            10, 23, 12, 27, 21, 456456), ''name'': u''Windows Vista Home Basic'',
+            ''created'': datetime.datetime(2009, 10, 23, 12, 27, 21, 456456), ''price'':
+            0.0, ''multiplier'': None, ''choicecategory_id'': 43898, ''cost'': 0.0,
+            ''sortorder'': 984, ''published'': None, ''supplier'': None, ''id'': 43965,
+            ''blurb'': u''''}, 13079: {''comment'': u''$25 additional cost  - for
+            MS netbooks, laptops, desktops '', ''updated'': datetime.datetime(2001,
+            1, 1, 0, 0), ''name'': u''Dual Boot operating systems (specify in NOTES)'',
+            ''created'': datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 17.0, ''sortorder'': 999,
+            ''published'': None, ''supplier'': None, ''id'': 13079, ''blurb'': u''''}},
+            ''id'': 43934, ''defaultchoiceid'': 35523, ''_option_cache'': <Option:
+            880: Operating System>}, ''43935_1'': {''updated'': datetime.datetime(2009,
+            10, 21, 14, 46, 42, 51265), ''name'': u''Base System'', ''created'': datetime.datetime(2009,
+            10, 21, 14, 46, 42, 51265), ''option_id'': 18849, ''price'': 0, ''required'':
+            False, ''_state'': <django.db.models.base.ModelState object at 0xbb959cc>,
+            ''selectedchoiceid'': 43958, ''qty'': 1, ''single'': False, ''product_id'':
+            43933, ''allowed_quantities'': u'''', ''published'': True, ''choices_orderby'':
+            u''cost'', ''defaultchoice_id'': 43958, ''choices'': {43958: {''comment'':
+            None, ''updated'': datetime.datetime(2009, 10, 22, 10, 24, 18, 63471),
+            ''name'': u''Asus Eee PC 1215N 12.1in Netbook '', ''created'': datetime.datetime(2009,
+            10, 22, 10, 24, 18, 63471), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43887, ''cost'': 490.0, ''sortorder'': 62, ''published'': None, ''supplier'':
+            None, ''id'': 43958, ''blurb'': u''''}}, ''id'': 43935, ''defaultchoiceid'':
+            43958, ''_option_cache'': <Option: 10: Base System>}, ''43938_1'': {''updated'':
+            datetime.datetime(2009, 10, 21, 14, 46, 42, 51265), ''name'': u''Warranty'',
+            ''created'': datetime.datetime(2009, 10, 21, 14, 46, 42, 51265), ''option_id'':
+            18048, ''price'': 0, ''required'': False, ''_state'': <django.db.models.base.ModelState
+            object at 0xbb95a4c>, ''selectedchoiceid'': 18049, ''qty'': 1, ''single'':
+            False, ''product_id'': 43933, ''allowed_quantities'': u'''', ''published'':
+            True, ''choices_orderby'': u''cost'', ''defaultchoice_id'': 18049, ''choices'':
+            {18049: {''comment'': None, ''updated'': datetime.datetime(2001, 1, 1,
+            0, 0), ''name'': u''Standard 1yr full /3yr limited warranty'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43919, ''cost'': 0.0, ''sortorder'': 9001,
+            ''published'': None, ''supplier'': None, ''id'': 18049, ''blurb'': u''''}},
+            ''id'': 43938, ''defaultchoiceid'': 18049, ''_option_cache'': <Option:
+            5000: Warranty>}, ''43976_1'': {''updated'': datetime.datetime(2009, 10,
+            23, 18, 47, 40, 753746), ''name'': u''External USB Optical Drive'', ''created'':
+            datetime.datetime(2009, 10, 23, 18, 47, 40, 753746), ''option_id'': 41393,
+            ''price'': 0, ''required'': False, ''_state'': <django.db.models.base.ModelState
+            object at 0xbb95acc>, ''selectedchoiceid'': 30, ''qty'': 1, ''single'':
+            False, ''product_id'': 43933, ''allowed_quantities'': u'''', ''published'':
+            True, ''choices_orderby'': u''cost'', ''defaultchoice_id'': 30, ''choices'':
+            {41408: {''comment'': u''for Netbooks'', ''updated'': datetime.datetime(2008,
+            12, 23, 14, 6, 55, 630682), ''name'': u''External USB DVD/CDRW Drive'',
+            ''created'': datetime.datetime(2008, 12, 23, 14, 6, 55, 630682), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43889, ''cost'': 88.0,
+            ''sortorder'': 81, ''published'': None, ''supplier'': None, ''id'': 41408,
+            ''blurb'': u''''}, 41409: {''comment'': u''For Netbooks'', ''updated'':
+            datetime.datetime(2008, 12, 23, 14, 7, 20, 752234), ''name'': u''External
+            USB DVDRW Drive'', ''created'': datetime.datetime(2008, 12, 23, 14, 7,
+            20, 752234), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43889, ''cost'': 90.0, ''sortorder'': 81, ''published'': None, ''supplier'':
+            None, ''id'': 41409, ''blurb'': u''''}, 41410: {''comment'': u''Asus SBC-06D1S'',
+            ''updated'': datetime.datetime(2008, 12, 23, 14, 7, 53, 789784), ''name'':
+            u''External Slim Blu-Ray BD-ROM Combo DVDRW'', ''created'': datetime.datetime(2008,
+            12, 23, 14, 7, 53, 789784), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43889, ''cost'': 140.0, ''sortorder'': 81, ''published'': True, ''supplier'':
+            None, ''id'': 41410, ''blurb'': u''''}, 30: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 10, 16, 56, 5), ''name'': u''none'', ''created'':
+            datetime.datetime(2001, 1, 10, 16, 56, 5), ''price'': 0.0, ''multiplier'':
+            None, ''choicecategory_id'': 43882, ''cost'': 0.0, ''sortorder'': 0, ''published'':
+            True, ''supplier'': 0, ''id'': 30, ''blurb'': u''''}, 41407: {''comment'':
+            u''For Netbooks'', ''updated'': datetime.datetime(2008, 12, 23, 14, 6,
+            12, 523905), ''name'': u''External USB CD-ROM'', ''created'': datetime.datetime(2008,
+            12, 23, 14, 6, 12, 523905), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43889, ''cost'': 50.0, ''sortorder'': 81, ''published'': None, ''supplier'':
+            None, ''id'': 41407, ''blurb'': u''''}}, ''id'': 43976, ''defaultchoiceid'':
+            30, ''_option_cache'': <Option: 100: External USB Optical Drive>}, ''43936_1'':
+            {''updated'': datetime.datetime(2009, 10, 21, 14, 46, 42, 51265), ''name'':
+            u''Donation amount'', ''created'': datetime.datetime(2009, 10, 21, 14,
+            46, 42, 51265), ''option_id'': 28983, ''price'': 0, ''required'': False,
+            ''_state'': <django.db.models.base.ModelState object at 0xbb95b4c>, ''selectedchoiceid'':
+            29002, ''qty'': 1, ''single'': False, ''product_id'': 43933, ''allowed_quantities'':
+            u'''', ''published'': True, ''choices_orderby'': u''cost'', ''defaultchoice_id'':
+            29002, ''choices'': {29002: {''comment'': None, ''updated'': datetime.datetime(2001,
+            1, 1, 0, 0), ''name'': u''No donation'', ''created'': datetime.datetime(2001,
+            1, 1, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43921, ''cost'': 0.0, ''sortorder'': 21000, ''published'': None, ''supplier'':
+            None, ''id'': 29002, ''blurb'': u''''}, 28987: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''$10.00'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43921, ''cost'': 10.0, ''sortorder'': 21010,
+            ''published'': None, ''supplier'': None, ''id'': 28987, ''blurb'': u''''},
+            28988: {''comment'': None, ''updated'': datetime.datetime(2001, 1, 1,
+            0, 0), ''name'': u''$25.00'', ''created'': datetime.datetime(2001, 1,
+            1, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43921, ''cost'': 25.0, ''sortorder'': 21025, ''published'': None, ''supplier'':
+            None, ''id'': 28988, ''blurb'': u''''}, 28986: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''$5.00'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43921, ''cost'': 5.0, ''sortorder'': 21005,
+            ''published'': None, ''supplier'': None, ''id'': 28986, ''blurb'': u''''}},
+            ''id'': 43936, ''defaultchoiceid'': 29002, ''_option_cache'': <Option:
+            4001: Donation amount>}}, ''_category_cache'': <Categories: Netbooks>},
+            {''new_grid'': False, ''weight'': 20, ''image'': u'''', ''_state'': <django.db.models.base.ModelState
+            object at 0xbb95ccc>, ''qty'': 3, ''cost'': 1200.0, ''baseprice'': 1385.0,
+            ''id'': 51412, ''features'': u'''', ''sku'': u''ZENBOOK'', ''title'':
+            u'''', ''comments'': u''\r\nScraped from Zope as of 2012-04-26\r\n\r\nScraped
+            from Zope as of 2012-05-01\r\n\r\nScraped from Zope as of 2012-05-04\r\n\r\nScraped
+            from Zope as of 2012-05-04\r\n\r\nScraped from Zope as of 2012-05-05\r\n\r\nScraped
+            from Zope as of 2012-05-19\r\n\r\nScraped from Zope as of 2012-05-19\r\n\r\nScraped
+            from Zope as of 2012-10-21\r\n\r\nScraped from Zope as of 2012-11-04'',
+            ''blurb'': u'''', ''updated'': datetime.datetime(2012, 11, 7, 23, 33,
+            48, 559605), ''description'': u''<p>\r\n\t<!-- now content page goes in
+            this cell--><!-- Begin ZENBOOK desc--></p>\r\n<h5>\r\n\teRacks/ZENBOOK</h5>\r\n<table
+            border="0" cellpadding="2" cellspacing="2">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t\t<div>\r\n\t\t\t\t\t<img
+            alt="" border="0" src="/images/products/zenbook/zenbook_400.jpeg" title="eRacks/ZENBOOK"
+            /><br />\r\n\t\t\t\t\t<a href="#photos" onclick="$(&quot;#photos-tab&quot;).click();">more
+            photos</a></div>\r\n\t\t\t\t<iframe allowfullscreen="" frameborder="0"
+            height="210" scrolling="no" src="http://www.youtube.com/embed/Wpno34NLsDg"
+            width="373"></iframe></td>\r\n\t\t\t<td>\r\n\t\t\t\t<div>\r\n\t\t\t\t\tThis
+            laptop is not just about the incredible beauty of the spun metal and hairline
+            aluminum; it has the ASUS exclusive Super Hybrid Engine II with instant
+            on 2-second resume, four to five times the standby time, automatic data
+            backup and recovery, and 25% longer battery life! Add eRacks&#39; custom
+            install of Linux and you&#39;ve got a winning combination.\r\n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t&nbsp;</p>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div>\r\n\t\t\t\t\tThe
+            base configuration includes:\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tDisplay:
+            11.6&quot; Widescreen LED-Backlit, 1366 x 768 Native Resolution</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tProcessor:
+            1.80GHz Intel Core i7-2677M Dual-Core</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tMemory:
+            4GB DDR3 1333</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tDrive: 128GB Solid
+            State</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tGraphics: Intel UMA Graphics</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tAudio:
+            Bang &amp; Olufsen ICEpower</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tWifi:
+            802.11b/g/n</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tBluetooth 4.0</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tPorts:
+            1 x Headphone-out jack (Audio-in Combo), 1 x USB 3.0 port(s) ,</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t&nbsp;
+            1 x USB 2.0 port(s), 1 x micro HDMI, 1 x Mini VGA</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tOS:
+            Ubuntu, Fedora, Mint or other Open Source OS installed.</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tWeight:
+            2.43 lb</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tDimensions: 29.9 x 19.6
+            x 0.3 ~1.7 inch (WxDxH)</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\tBattery:
+            35 Whrs Polymer Battery</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t&nbsp;</p>\r\n\t\t\t\t</div>\r\n\t\t\t\t<img
+            alt="" border="0" src="/images/products/zenbook/i7mobile.gif" title="Intel
+            i7CPU" /> <img alt="" border="0" src="/images/products/zenbook/ubuntu.png"
+            title="" />\r\n\t\t\t\t<p>\r\n\t\t\t\t\t&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td
+            colspan="2">\r\n\t\t\t\tThis configuration&#39;s price is $1385.\r\n\t\t\t\t<p>\r\n\t\t\t\t\t&nbsp;</p>\r\n\t\t\t\t<p>\r\n\t\t\t\t\t&nbsp;</p>\r\n\t\t\t\t<p>\r\n\t\t\t\t\tNote:
+            Functionality may be limited by operating system compatibility.</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<!--
+            End ZENBOOK desc -->'', ''link'': u'''', ''sortorder'': 0, ''multiplier'':
+            None, ''totprice'': 1600.0, ''baseoptions'': u'''', ''name'': u''eRacks/ZENBOOK'',
+            ''created'': datetime.datetime(2011, 12, 27, 14, 20, 54, 715286), ''notes'':
+            '''', ''summary'': u''<ul><li>Extras: 32 GB USB 2.0 Drive</li>\n<li>Warranty:
+            Extended 2yr full / 3yr limited warranty</li>\n</ul>\n'', ''published'':
+            True, ''category_id'': 18787, ''opts'': {''51417_1'': {''updated'': datetime.datetime(2012,
+            10, 18, 13, 44, 23, 968472), ''name'': u''Memory'', ''created'': datetime.datetime(2011,
+            12, 27, 14, 20, 54, 770602), ''option_id'': 5, ''price'': 0, ''required'':
+            False, ''_state'': <django.db.models.base.ModelState object at 0xbb95fac>,
+            ''selectedchoiceid'': 51601, ''qty'': 1, ''single'': False, ''product_id'':
+            51412, ''allowed_quantities'': u'''', ''published'': True, ''choices_orderby'':
+            u''cost'', ''defaultchoice_id'': 51601, ''choices'': {51601: {''comment'':
+            u''comes with base model ZENBOOK'', ''updated'': datetime.datetime(2012,
+            1, 1, 14, 18, 49, 3811), ''name'': u''4 GB DDR3 1333MHz '', ''created'':
+            datetime.datetime(2012, 1, 1, 14, 18, 49, 3764), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43895, ''cost'': 0.0, ''sortorder'': 900,
+            ''published'': None, ''supplier'': None, ''id'': 51601, ''blurb'': u''''},
+            54684: {''comment'': u''for ZENBOOK laptop'', ''updated'': datetime.datetime(2012,
+            10, 18, 13, 43, 42, 722990), ''name'': u''8GB DDR3 1333 MHz'', ''created'':
+            datetime.datetime(2012, 10, 18, 13, 43, 42, 722948), ''price'': None,
+            ''multiplier'': None, ''choicecategory_id'': 43895, ''cost'': 80.0, ''sortorder'':
+            602, ''published'': None, ''supplier'': None, ''id'': 54684, ''blurb'':
+            u''''}}, ''id'': 51417, ''defaultchoiceid'': 51601, ''_option_cache'':
+            <Option: 41: Memory>}, ''51420_1'': {''updated'': datetime.datetime(2011,
+            12, 27, 14, 20, 54, 797125), ''name'': u''Extras'', ''created'': datetime.datetime(2011,
+            12, 27, 14, 20, 54, 797078), ''option_id'': 18991, ''price'': 80, ''required'':
+            False, ''_state'': <django.db.models.base.ModelState object at 0xbbfb14c>,
+            ''selectedchoiceid'': 47151, ''qty'': 1, ''single'': False, ''product_id'':
+            51412, ''allowed_quantities'': u'''', ''published'': True, ''choices_orderby'':
+            u''cost'', ''defaultchoice_id'': 30, ''choices'': {47138: {''comment'':
+            u''$36 cost'', ''updated'': datetime.datetime(2010, 9, 10, 17, 29, 19,
+            337144), ''name'': u''16 GB USB 2.0 Drive'', ''created'': datetime.datetime(2010,
+            9, 10, 17, 29, 19, 337144), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43886, ''cost'': 28.0, ''sortorder'': 52, ''published'': None, ''supplier'':
+            None, ''id'': 47138, ''blurb'': u''''}, 47151: {''comment'': u''$72 cost'',
+            ''updated'': datetime.datetime(2010, 9, 10, 17, 33, 36, 570696), ''name'':
+            u''32 GB USB 2.0 Drive'', ''created'': datetime.datetime(2010, 9, 10,
+            17, 33, 36, 570696), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43886, ''cost'': 60.0, ''sortorder'': 52, ''published'': None, ''supplier'':
+            None, ''id'': 47151, ''blurb'': u''''}, 38802: {''comment'': u''$100 cost'',
+            ''updated'': datetime.datetime(2008, 6, 5, 0, 0), ''name'': u''Extra Laptop
+            Battery'', ''created'': datetime.datetime(2008, 6, 5, 0, 0), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43886, ''cost'': 90.0,
+            ''sortorder'': 51, ''published'': None, ''supplier'': None, ''id'': 38802,
+            ''blurb'': u''''}, 38803: {''comment'': u''$30 cost'', ''updated'': datetime.datetime(2008,
+            6, 5, 0, 0), ''name'': u''Extra Laptop AC Adapter'', ''created'': datetime.datetime(2008,
+            6, 5, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43886, ''cost'': 27.0, ''sortorder'': 51, ''published'': None, ''supplier'':
+            None, ''id'': 38803, ''blurb'': u''''}, 38804: {''comment'': u''$75 cost'',
+            ''updated'': datetime.datetime(2008, 6, 5, 0, 0), ''name'': u''Laptop
+            Car Adapter'', ''created'': datetime.datetime(2008, 6, 5, 0, 0), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43886, ''cost'': 67.0,
+            ''sortorder'': 51, ''published'': None, ''supplier'': None, ''id'': 38804,
+            ''blurb'': u''''}, 38805: {''comment'': u''12$ cost'', ''updated'': datetime.datetime(2008,
+            6, 5, 0, 0), ''name'': u''4 GB USB 2.0  Drive'', ''created'': datetime.datetime(2008,
+            6, 5, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43886, ''cost'': 7.0, ''sortorder'': 52, ''published'': None, ''supplier'':
+            None, ''id'': 38805, ''blurb'': u''''}, 38806: {''comment'': u''20$ cost'',
+            ''updated'': datetime.datetime(2008, 6, 5, 0, 0), ''name'': u''8 GB USB
+            2.0 Drive'', ''created'': datetime.datetime(2008, 6, 5, 0, 0), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43886, ''cost'': 15.0,
+            ''sortorder'': 52, ''published'': None, ''supplier'': None, ''id'': 38806,
+            ''blurb'': u''''}, 38807: {''comment'': u''$11 cost'', ''updated'': datetime.datetime(2008,
+            6, 5, 0, 0), ''name'': u''Belkin Security Lock '', ''created'': datetime.datetime(2008,
+            6, 5, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43886, ''cost'': 7.0, ''sortorder'': 53, ''published'': None, ''supplier'':
+            None, ''id'': 38807, ''blurb'': u''''}, 38808: {''comment'': u''$28 cost'',
+            ''updated'': datetime.datetime(2008, 6, 5, 0, 0), ''name'': u''Antec Cooler
+            for laptops, USB cable 30in, 5V, 2W'', ''created'': datetime.datetime(2008,
+            6, 5, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43886, ''cost'': 24.0, ''sortorder'': 53, ''published'': None, ''supplier'':
+            None, ''id'': 38808, ''blurb'': u''''}, 30: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 10, 16, 56, 5), ''name'': u''none'', ''created'':
+            datetime.datetime(2001, 1, 10, 16, 56, 5), ''price'': 0.0, ''multiplier'':
+            None, ''choicecategory_id'': 43882, ''cost'': 0.0, ''sortorder'': 0, ''published'':
+            True, ''supplier'': 0, ''id'': 30, ''blurb'': u''''}}, ''id'': 51420,
+            ''defaultchoiceid'': 30, ''_option_cache'': <Option: 1000: Extras>}, ''51414_1'':
+            {''updated'': datetime.datetime(2012, 2, 7, 17, 54, 29, 733408), ''name'':
+            u''Internal HD Bay'', ''created'': datetime.datetime(2011, 12, 27, 14,
+            20, 54, 743871), ''option_id'': 2, ''price'': 0, ''required'': False,
+            ''_state'': <django.db.models.base.ModelState object at 0xbbfb4ac>, ''selectedchoiceid'':
+            51757, ''qty'': 1, ''single'': False, ''product_id'': 51412, ''allowed_quantities'':
+            u'''', ''published'': True, ''choices_orderby'': u''cost'', ''defaultchoice_id'':
+            51757, ''choices'': {51757: {''comment'': u''ZENBOOK default'', ''updated'':
+            datetime.datetime(2012, 2, 7, 17, 52, 33, 404038), ''name'': u''128GB
+            SSD'', ''created'': datetime.datetime(2012, 2, 7, 17, 52, 33, 403988),
+            ''price'': None, ''multiplier'': None, ''choicecategory_id'': 43917, ''cost'':
+            0.0, ''sortorder'': 607, ''published'': False, ''supplier'': None, ''id'':
+            51757, ''blurb'': u''''}, 51758: {''comment'': u''ZENBOOK upgrade'', ''updated'':
+            datetime.datetime(2012, 2, 7, 17, 53, 14, 275944), ''name'': u''256GB
+            SSD'', ''created'': datetime.datetime(2012, 2, 7, 17, 53, 14, 275894),
+            ''price'': None, ''multiplier'': None, ''choicecategory_id'': 43917, ''cost'':
+            300.0, ''sortorder'': 609, ''published'': False, ''supplier'': None, ''id'':
+            51758, ''blurb'': u''''}}, ''id'': 51414, ''defaultchoiceid'': 51757,
+            ''_option_cache'': <Option: 100: Internal HD Bay>}, ''51418_1'': {''updated'':
+            datetime.datetime(2012, 1, 1, 15, 34, 58, 37995), ''name'': u''Operating
+            System'', ''created'': datetime.datetime(2011, 12, 27, 14, 20, 54, 779327),
+            ''option_id'': 7, ''price'': 0, ''required'': False, ''_state'': <django.db.models.base.ModelState
+            object at 0xbbfb24c>, ''selectedchoiceid'': 35523, ''qty'': 1, ''single'':
+            False, ''product_id'': 51412, ''allowed_quantities'': u'''', ''published'':
+            True, ''choices_orderby'': u''cost'', ''defaultchoice_id'': 35523, ''choices'':
+            {13079: {''comment'': u''$25 additional cost  - for MS netbooks, laptops,
+            desktops '', ''updated'': datetime.datetime(2001, 1, 1, 0, 0), ''name'':
+            u''Dual Boot operating systems (specify in NOTES)'', ''created'': datetime.datetime(2001,
+            1, 1, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43898, ''cost'': 17.0, ''sortorder'': 999, ''published'': None, ''supplier'':
+            None, ''id'': 13079, ''blurb'': u''''}, 23: {''comment'': u'''', ''updated'':
+            datetime.datetime(2012, 2, 18, 11, 40, 45, 358097), ''name'': u''OpenBSD
+            Legacy'', ''created'': datetime.datetime(2001, 8, 26, 16, 45, 22), ''price'':
+            0.0, ''multiplier'': None, ''choicecategory_id'': 43898, ''cost'': 0.0,
+            ''sortorder'': 902, ''published'': True, ''supplier'': 0, ''id'': 23,
+            ''blurb'': u''''}, 24: {''comment'': None, ''updated'': datetime.datetime(2001,
+            1, 10, 16, 45, 40), ''name'': u''Fedora Linux 7 '', ''created'': datetime.datetime(2001,
+            1, 10, 16, 45, 40), ''price'': 0.0, ''multiplier'': None, ''choicecategory_id'':
+            43898, ''cost'': 0.0, ''sortorder'': 910, ''published'': False, ''supplier'':
+            0, ''id'': 24, ''blurb'': u''''}, 41887: {''comment'': u'''', ''updated'':
+            datetime.datetime(2012, 5, 27, 5, 53, 36, 967179), ''name'': u''Linux
+            Mint 13'', ''created'': datetime.datetime(2009, 3, 17, 14, 41, 17, 900605),
+            ''price'': None, ''multiplier'': None, ''choicecategory_id'': 43898, ''cost'':
+            0.0, ''sortorder'': 949, ''published'': None, ''supplier'': None, ''id'':
+            41887, ''blurb'': u''''}, 25377: {''comment'': u'''', ''updated'': datetime.datetime(2012,
+            6, 5, 21, 14, 32, 883305), ''name'': u''Fedora Linux 17'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'': 950,
+            ''published'': True, ''supplier'': None, ''id'': 25377, ''blurb'': u''''},
+            32940: {''comment'': u'''', ''updated'': datetime.datetime(2012, 4, 30,
+            13, 44, 31, 275964), ''name'': u''Ubuntu Linux 12.04 LTS Server Edition'',
+            ''created'': datetime.datetime(2006, 1, 24, 20, 0, 17), ''price'': None,
+            ''multiplier'': None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'':
+            939, ''published'': None, ''supplier'': None, ''id'': 32940, ''blurb'':
+            u''''}, 14513: {''comment'': None, ''updated'': datetime.datetime(2001,
+            1, 1, 0, 0), ''name'': u''No OS - (tested with Ubuntu)'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'': 970,
+            ''published'': None, ''supplier'': None, ''id'': 14513, ''blurb'': u''''},
+            1075: {''comment'': u'''', ''updated'': datetime.datetime(2012, 4, 30,
+            13, 44, 31, 439942), ''name'': u''Ubuntu Linux 11.10 Server Edition'',
+            ''created'': datetime.datetime(2003, 1, 23, 10, 30), ''price'': 0.0, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'': 941,
+            ''published'': True, ''supplier'': 0, ''id'': 1075, ''blurb'': u''''},
+            11322: {''comment'': None, ''updated'': datetime.datetime(2001, 1, 1,
+            0, 0), ''name'': u''Linux 8.0 (redhat.com download edition)'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'': 949,
+            ''published'': False, ''supplier'': None, ''id'': 11322, ''blurb'': u''''},
+            32446: {''comment'': None, ''updated'': datetime.datetime(2006, 1, 24,
+            20, 0, 17), ''name'': u''SimplyMEPIS Linux 11'', ''created'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43898, ''cost'': 0.0, ''sortorder'': 932, ''published'': None, ''supplier'':
+            None, ''id'': 32446, ''blurb'': u''''}, 35522: {''comment'': u'''', ''updated'':
+            datetime.datetime(2012, 4, 30, 13, 44, 31, 489966), ''name'': u''Ubuntu
+            Linux 11.10 Desktop Edition'', ''created'': datetime.datetime(2007, 8,
+            30, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43898, ''cost'': 0.0, ''sortorder'': 942, ''published'': True, ''supplier'':
+            None, ''id'': 35522, ''blurb'': u''''}, 35523: {''comment'': u'''', ''updated'':
+            datetime.datetime(2012, 4, 30, 13, 44, 31, 539895), ''name'': u''Ubuntu
+            Linux 12.04 LTS Desktop Edition'', ''created'': datetime.datetime(2007,
+            8, 30, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43898, ''cost'': 0.0, ''sortorder'': 943, ''published'': None, ''supplier'':
+            None, ''id'': 35523, ''blurb'': u''''}, 8261: {''comment'': u'''', ''updated'':
+            datetime.datetime(2012, 2, 18, 11, 56, 51, 849788), ''name'': u''FreeBSD
+            legacy '', ''created'': datetime.datetime(2001, 8, 26, 0, 0), ''price'':
+            0.0, ''multiplier'': None, ''choicecategory_id'': 43898, ''cost'': 0.0,
+            ''sortorder'': 911, ''published'': True, ''supplier'': 0, ''id'': 8261,
+            ''blurb'': u''''}, 27340: {''comment'': u'''', ''updated'': datetime.datetime(2012,
+            6, 5, 21, 14, 33, 99600), ''name'': u''Fedora Linux 16'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'': 951,
+            ''published'': True, ''supplier'': None, ''id'': 27340, ''blurb'': u''''},
+            38352: {''comment'': u'''', ''updated'': datetime.datetime(2012, 2, 18,
+            11, 42, 14, 109281), ''name'': u''Puppy Linux '', ''created'': datetime.datetime(2008,
+            5, 5, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43898, ''cost'': 0.0, ''sortorder'': 906, ''published'': None, ''supplier'':
+            None, ''id'': 38352, ''blurb'': u''''}, 38353: {''comment'': None, ''updated'':
+            datetime.datetime(2008, 5, 5, 0, 0), ''name'': u''PCLinuxOS'', ''created'':
+            datetime.datetime(2008, 5, 5, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'': 905,
+            ''published'': None, ''supplier'': None, ''id'': 38353, ''blurb'': u''''},
+            16595: {''comment'': u''349$online per server per year (July 27.06) novell.com/linux
+            '', ''updated'': datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''Novell
+            SUSE Linux Enterprise Server 11 '', ''created'': datetime.datetime(2001,
+            1, 1, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43898, ''cost'': 256.0, ''sortorder'': 955, ''published'': True, ''supplier'':
+            None, ''id'': 16595, ''blurb'': u''''}, 4058: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''Linux 9  (redhat.com
+            download edition)'', ''created'': datetime.datetime(2001, 1, 1, 0, 0),
+            ''price'': 0.0, ''multiplier'': None, ''choicecategory_id'': 43898, ''cost'':
+            0.0, ''sortorder'': 950, ''published'': False, ''supplier'': 0, ''id'':
+            4058, ''blurb'': u''''}, 9190: {''comment'': u'''', ''updated'': datetime.datetime(2012,
+            2, 18, 11, 56, 36, 11642), ''name'': u''FreeBSD production '', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': 0.0, ''multiplier'': None,
+            ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'': 912, ''published'':
+            True, ''supplier'': 0, ''id'': 9190, ''blurb'': u''''}, 4469: {''comment'':
+            u'''', ''updated'': datetime.datetime(2012, 2, 18, 11, 41, 53, 373123),
+            ''name'': u''Mandriva Linux '', ''created'': datetime.datetime(2001, 1,
+            1, 0, 0), ''price'': 0.0, ''multiplier'': None, ''choicecategory_id'':
+            43898, ''cost'': 0.0, ''sortorder'': 945, ''published'': None, ''supplier'':
+            0, ''id'': 4469, ''blurb'': u''''}, 4470: {''comment'': u'''', ''updated'':
+            datetime.datetime(2012, 2, 18, 11, 41, 31, 365916), ''name'': u''OpenSUSE
+            '', ''created'': datetime.datetime(2001, 1, 1, 0, 0), ''price'': 0.0,
+            ''multiplier'': None, ''choicecategory_id'': 43898, ''cost'': 0.0, ''sortorder'':
+            955, ''published'': None, ''supplier'': 0, ''id'': 4470, ''blurb'': u''''},
+            21758: {''comment'': None, ''updated'': datetime.datetime(2001, 1, 1,
+            0, 0), ''name'': u''Red Hat&reg; Linux Enterprise Workstation'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43898, ''cost'': 180.0, ''sortorder'': 952,
+            ''published'': True, ''supplier'': None, ''id'': 21758, ''blurb'': u''''}},
+            ''id'': 51418, ''defaultchoiceid'': 35523, ''_option_cache'': <Option:
+            880: Operating System>}, ''51423_1'': {''updated'': datetime.datetime(2012,
+            1, 1, 14, 43, 14, 90985), ''name'': u''Donation amount'', ''created'':
+            datetime.datetime(2011, 12, 27, 14, 20, 54, 822832), ''option_id'': 28983,
+            ''price'': 0, ''required'': False, ''_state'': <django.db.models.base.ModelState
+            object at 0xbbfb2cc>, ''selectedchoiceid'': 28986, ''qty'': 1, ''single'':
+            False, ''product_id'': 51412, ''allowed_quantities'': u'''', ''published'':
+            True, ''choices_orderby'': u''cost'', ''defaultchoice_id'': 28986, ''choices'':
+            {29002: {''comment'': None, ''updated'': datetime.datetime(2001, 1, 1,
+            0, 0), ''name'': u''No donation'', ''created'': datetime.datetime(2001,
+            1, 1, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43921, ''cost'': 0.0, ''sortorder'': 21000, ''published'': None, ''supplier'':
+            None, ''id'': 29002, ''blurb'': u''''}, 28987: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''$10.00'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43921, ''cost'': 10.0, ''sortorder'': 21010,
+            ''published'': None, ''supplier'': None, ''id'': 28987, ''blurb'': u''''},
+            28988: {''comment'': None, ''updated'': datetime.datetime(2001, 1, 1,
+            0, 0), ''name'': u''$25.00'', ''created'': datetime.datetime(2001, 1,
+            1, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43921, ''cost'': 25.0, ''sortorder'': 21025, ''published'': None, ''supplier'':
+            None, ''id'': 28988, ''blurb'': u''''}, 28986: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''$5.00'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43921, ''cost'': 5.0, ''sortorder'': 21005,
+            ''published'': None, ''supplier'': None, ''id'': 28986, ''blurb'': u''''},
+            28989: {''comment'': None, ''updated'': datetime.datetime(2001, 1, 1,
+            0, 0), ''name'': u''$50.00'', ''created'': datetime.datetime(2001, 1,
+            1, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43921, ''cost'': 50.0, ''sortorder'': 21050, ''published'': None, ''supplier'':
+            None, ''id'': 28989, ''blurb'': u''''}}, ''id'': 51423, ''defaultchoiceid'':
+            28986, ''_option_cache'': <Option: 4001: Donation amount>}, ''51413_1'':
+            {''updated'': datetime.datetime(2013, 1, 5, 12, 47, 11, 350190), ''name'':
+            u''Warranty'', ''created'': datetime.datetime(2011, 12, 27, 14, 20, 54,
+            734012), ''option_id'': 18048, ''price'': 135, ''required'': False, ''_state'':
+            <django.db.models.base.ModelState object at 0xbbfb3ac>, ''selectedchoiceid'':
+            18051, ''qty'': 1, ''single'': False, ''product_id'': 51412, ''allowed_quantities'':
+            u'''', ''published'': True, ''choices_orderby'': u''cost'', ''defaultchoice_id'':
+            18049, ''choices'': {18049: {''comment'': None, ''updated'': datetime.datetime(2001,
+            1, 1, 0, 0), ''name'': u''Standard 1yr full /3yr limited warranty'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43919, ''cost'': 0.0, ''sortorder'': 9001,
+            ''published'': None, ''supplier'': None, ''id'': 18049, ''blurb'': u''''},
+            18051: {''comment'': None, ''updated'': datetime.datetime(2001, 1, 1,
+            0, 0), ''name'': u''Extended 2yr full / 3yr limited warranty'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43919, ''cost'': 100.0, ''sortorder'': 9002,
+            ''published'': None, ''supplier'': None, ''id'': 18051, ''blurb'': u''''},
+            18052: {''comment'': None, ''updated'': datetime.datetime(2001, 1, 1,
+            0, 0), ''name'': u''Premium full 3yr warranty'', ''created'': datetime.datetime(2001,
+            1, 1, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43919, ''cost'': 200.0, ''sortorder'': 9003, ''published'': None, ''supplier'':
+            None, ''id'': 18052, ''blurb'': u''''}}, ''id'': 51413, ''defaultchoiceid'':
+            18049, ''_option_cache'': <Option: 5000: Warranty>}, ''51422_1'': {''updated'':
+            datetime.datetime(2012, 1, 1, 14, 51, 54, 177435), ''name'': u''Donation
+            target'', ''created'': datetime.datetime(2011, 12, 27, 14, 20, 54, 814396),
+            ''option_id'': 28982, ''price'': 0, ''required'': False, ''_state'': <django.db.models.base.ModelState
+            object at 0xbbfb42c>, ''selectedchoiceid'': 28984, ''qty'': 1, ''single'':
+            False, ''product_id'': 51412, ''allowed_quantities'': u'''', ''published'':
+            True, ''choices_orderby'': u''cost'', ''defaultchoice_id'': 28984, ''choices'':
+            {34112: {''comment'': None, ''updated'': datetime.datetime(2006, 1, 24,
+            20, 0, 17), ''name'': u''The OpenSSH Project'', ''created'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43920, ''cost'': 0.0, ''sortorder'': 20000, ''published'': None, ''supplier'':
+            None, ''id'': 34112, ''blurb'': u''''}, 29002: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''No donation'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43921, ''cost'': 0.0, ''sortorder'': 21000,
+            ''published'': None, ''supplier'': None, ''id'': 29002, ''blurb'': u''''},
+            35828: {''comment'': None, ''updated'': datetime.datetime(2007, 9, 27,
+            0, 0), ''name'': u''The FreeBSD Foundation'', ''created'': datetime.datetime(2007,
+            9, 27, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43920, ''cost'': 0.0, ''sortorder'': 20000, ''published'': None, ''supplier'':
+            None, ''id'': 35828, ''blurb'': u''''}, 28984: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''Electronic Frontier
+            Foundation'', ''created'': datetime.datetime(2001, 1, 1, 0, 0), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43920, ''cost'': 0.0,
+            ''sortorder'': 20000, ''published'': None, ''supplier'': None, ''id'':
+            28984, ''blurb'': u''''}, 31929: {''comment'': None, ''updated'': datetime.datetime(2006,
+            5, 9, 20, 0, 17), ''name'': u''The OpenBSD Project'', ''created'': datetime.datetime(2006,
+            5, 9, 20, 0, 17), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43920, ''cost'': 0.0, ''sortorder'': 20000, ''published'': None, ''supplier'':
+            None, ''id'': 31929, ''blurb'': u''''}, 31930: {''comment'': None, ''updated'':
+            datetime.datetime(2006, 5, 9, 20, 0, 17), ''name'': u''Other Open Source
+            Project (please state in Notes)'', ''created'': datetime.datetime(2006,
+            5, 9, 20, 0, 17), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43920, ''cost'': 0.0, ''sortorder'': 20000, ''published'': None, ''supplier'':
+            None, ''id'': 31930, ''blurb'': u''''}}, ''id'': 51422, ''defaultchoiceid'':
+            28984, ''_option_cache'': <Option: 4000: Donation target>}, ''51609_1'':
+            {''updated'': datetime.datetime(2012, 1, 1, 0, 0), ''name'': u''Base System'',
+            ''created'': datetime.datetime(2012, 1, 1, 0, 0), ''option_id'': 18849,
+            ''price'': 0, ''required'': False, ''_state'': <django.db.models.base.ModelState
+            object at 0xbbfb1cc>, ''selectedchoiceid'': 51607, ''qty'': 1, ''single'':
+            False, ''product_id'': 51412, ''allowed_quantities'': u'''', ''published'':
+            True, ''choices_orderby'': u''cost'', ''defaultchoice_id'': 51607, ''choices'':
+            {51607: {''comment'': u''ZENBOOK base system'', ''updated'': datetime.datetime(2012,
+            1, 1, 14, 51, 16, 333634), ''name'': u''ZENBOOK Asus UX21E laptop base
+            system'', ''created'': datetime.datetime(2012, 1, 1, 14, 45, 9, 923638),
+            ''price'': None, ''multiplier'': None, ''choicecategory_id'': 43891, ''cost'':
+            1200.0, ''sortorder'': 100, ''published'': None, ''supplier'': None, ''id'':
+            51607, ''blurb'': u''''}}, ''id'': 51609, ''defaultchoiceid'': 51607,
+            ''_option_cache'': <Option: 10: Base System>}, ''51416_1'': {''updated'':
+            datetime.datetime(2012, 1, 1, 14, 54, 5, 446624), ''name'': u''Processor'',
+            ''created'': datetime.datetime(2011, 12, 27, 14, 20, 54, 761345), ''option_id'':
+            6564, ''price'': 0, ''required'': False, ''_state'': <django.db.models.base.ModelState
+            object at 0xbbfb52c>, ''selectedchoiceid'': 51611, ''qty'': 1, ''single'':
+            False, ''product_id'': 51412, ''allowed_quantities'': u'''', ''published'':
+            True, ''choices_orderby'': u''cost'', ''defaultchoice_id'': 51611, ''choices'':
+            {51611: {''comment'': u''ZENBOOK base system'', ''updated'': datetime.datetime(2012,
+            1, 1, 14, 53, 35, 737624), ''name'': u''ZENBOOK Intel Core i7 2677M Processor'',
+            ''created'': datetime.datetime(2012, 1, 1, 14, 53, 35, 737573), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43891, ''cost'': 0.0,
+            ''sortorder'': 100, ''published'': None, ''supplier'': None, ''id'': 51611,
+            ''blurb'': u''''}}, ''id'': 51416, ''defaultchoiceid'': 51611, ''_option_cache'':
+            <Option: 40: Processor>}, ''51415_1'': {''updated'': datetime.datetime(2011,
+            12, 27, 14, 20, 54, 752648), ''name'': u''More Extras'', ''created'':
+            datetime.datetime(2011, 12, 27, 14, 20, 54, 752602), ''option_id'': 19011,
+            ''price'': 0, ''required'': False, ''_state'': <django.db.models.base.ModelState
+            object at 0xbbfb5ac>, ''selectedchoiceid'': 30, ''qty'': 1, ''single'':
+            False, ''product_id'': 51412, ''allowed_quantities'': u'''', ''published'':
+            True, ''choices_orderby'': u''cost'', ''defaultchoice_id'': 30, ''choices'':
+            {47138: {''comment'': u''$36 cost'', ''updated'': datetime.datetime(2010,
+            9, 10, 17, 29, 19, 337144), ''name'': u''16 GB USB 2.0 Drive'', ''created'':
+            datetime.datetime(2010, 9, 10, 17, 29, 19, 337144), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43886, ''cost'': 28.0, ''sortorder'': 52,
+            ''published'': None, ''supplier'': None, ''id'': 47138, ''blurb'': u''''},
+            47151: {''comment'': u''$72 cost'', ''updated'': datetime.datetime(2010,
+            9, 10, 17, 33, 36, 570696), ''name'': u''32 GB USB 2.0 Drive'', ''created'':
+            datetime.datetime(2010, 9, 10, 17, 33, 36, 570696), ''price'': None, ''multiplier'':
+            None, ''choicecategory_id'': 43886, ''cost'': 60.0, ''sortorder'': 52,
+            ''published'': None, ''supplier'': None, ''id'': 47151, ''blurb'': u''''},
+            38802: {''comment'': u''$100 cost'', ''updated'': datetime.datetime(2008,
+            6, 5, 0, 0), ''name'': u''Extra Laptop Battery'', ''created'': datetime.datetime(2008,
+            6, 5, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43886, ''cost'': 90.0, ''sortorder'': 51, ''published'': None, ''supplier'':
+            None, ''id'': 38802, ''blurb'': u''''}, 38803: {''comment'': u''$30 cost'',
+            ''updated'': datetime.datetime(2008, 6, 5, 0, 0), ''name'': u''Extra Laptop
+            AC Adapter'', ''created'': datetime.datetime(2008, 6, 5, 0, 0), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43886, ''cost'': 27.0,
+            ''sortorder'': 51, ''published'': None, ''supplier'': None, ''id'': 38803,
+            ''blurb'': u''''}, 38804: {''comment'': u''$75 cost'', ''updated'': datetime.datetime(2008,
+            6, 5, 0, 0), ''name'': u''Laptop Car Adapter'', ''created'': datetime.datetime(2008,
+            6, 5, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43886, ''cost'': 67.0, ''sortorder'': 51, ''published'': None, ''supplier'':
+            None, ''id'': 38804, ''blurb'': u''''}, 38805: {''comment'': u''12$ cost'',
+            ''updated'': datetime.datetime(2008, 6, 5, 0, 0), ''name'': u''4 GB USB
+            2.0  Drive'', ''created'': datetime.datetime(2008, 6, 5, 0, 0), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43886, ''cost'': 7.0,
+            ''sortorder'': 52, ''published'': None, ''supplier'': None, ''id'': 38805,
+            ''blurb'': u''''}, 38806: {''comment'': u''20$ cost'', ''updated'': datetime.datetime(2008,
+            6, 5, 0, 0), ''name'': u''8 GB USB 2.0 Drive'', ''created'': datetime.datetime(2008,
+            6, 5, 0, 0), ''price'': None, ''multiplier'': None, ''choicecategory_id'':
+            43886, ''cost'': 15.0, ''sortorder'': 52, ''published'': None, ''supplier'':
+            None, ''id'': 38806, ''blurb'': u''''}, 38807: {''comment'': u''$11 cost'',
+            ''updated'': datetime.datetime(2008, 6, 5, 0, 0), ''name'': u''Belkin
+            Security Lock '', ''created'': datetime.datetime(2008, 6, 5, 0, 0), ''price'':
+            None, ''multiplier'': None, ''choicecategory_id'': 43886, ''cost'': 7.0,
+            ''sortorder'': 53, ''published'': None, ''supplier'': None, ''id'': 38807,
+            ''blurb'': u''''}, 38808: {''comment'': u''$28 cost'', ''updated'': datetime.datetime(2008,
+            6, 5, 0, 0), ''name'': u''Antec Cooler for laptops, USB cable 30in, 5V,
+            2W'', ''created'': datetime.datetime(2008, 6, 5, 0, 0), ''price'': None,
+            ''multiplier'': None, ''choicecategory_id'': 43886, ''cost'': 24.0, ''sortorder'':
+            53, ''published'': None, ''supplier'': None, ''id'': 38808, ''blurb'':
+            u''''}, 30: {''comment'': None, ''updated'': datetime.datetime(2001, 1,
+            10, 16, 56, 5), ''name'': u''none'', ''created'': datetime.datetime(2001,
+            1, 10, 16, 56, 5), ''price'': 0.0, ''multiplier'': None, ''choicecategory_id'':
+            43882, ''cost'': 0.0, ''sortorder'': 0, ''published'': True, ''supplier'':
+            0, ''id'': 30, ''blurb'': u''''}}, ''id'': 51415, ''defaultchoiceid'':
+            30, ''_option_cache'': <Option: 1001: More Extras>}}, ''_category_cache'':
+            <Categories: Laptops>}, {''new_grid'': False, ''weight'': 20, ''image'':
+            None, ''_state'': <django.db.models.base.ModelState object at 0xbbfb72c>,
+            ''qty'': 1, ''cost'': 235.0, ''baseprice'': 250.0, ''id'': 38284, ''features'':
+            u'''', ''sku'': u''Eee'', ''title'': u'''', ''comments'': u'''', ''blurb'':
+            None, ''updated'': datetime.datetime(2011, 7, 9, 13, 20, 40, 440387),
+            ''description'': u'''', ''link'': None, ''sortorder'': 0, ''multiplier'':
+            None, ''totprice'': 345.0, ''baseoptions'': None, ''name'': u''eRacks/Eee'',
+            ''created'': datetime.datetime(2011, 7, 8, 16, 31, 30, 876846), ''notes'':
+            '''', ''summary'': u''<ul><li>Base System: Asus Eee PC 4G Surf 7inch 900MHz
+            GALAXY BLACK</li>\n<li>Operating System: Meego Netbook</li>\n</ul>\n'',
+            ''published'': True, ''category_id'': 41479, ''opts'': {''38286_1'': {''updated'':
+            datetime.datetime(2006, 1, 24, 20, 0, 17), ''name'': u''Donation amount'',
+            ''created'': datetime.datetime(2006, 1, 24, 20, 0, 17), ''_state'': <django.db.models.base.ModelState
+            object at 0xbbfba0c>, ''price'': 0, ''required'': False, ''option_id'':
+            28983, ''selectedchoiceid'': 29002, ''qty'': 1, ''single'': False, ''product_id'':
+            38284, ''allowed_quantities'': u'''', ''published'': True, ''choices_orderby'':
+            u''cost'', ''defaultchoice_id'': 29002, ''choices'': {29002: {''comment'':
+            None, ''updated'': datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''No
+            donation'', ''created'': datetime.datetime(2001, 1, 1, 0, 0), ''price'':
+            None, ''published'': None, ''choicecategory_id'': 43921, ''cost'': 0.0,
+            ''sortorder'': 21000, ''multiplier'': None, ''supplier'': None, ''id'':
+            29002, ''blurb'': u''''}, 28987: {''comment'': None, ''updated'': datetime.datetime(2001,
+            1, 1, 0, 0), ''name'': u''$10.00'', ''created'': datetime.datetime(2001,
+            1, 1, 0, 0), ''price'': None, ''published'': None, ''choicecategory_id'':
+            43921, ''cost'': 10.0, ''sortorder'': 21010, ''multiplier'': None, ''supplier'':
+            None, ''id'': 28987, ''blurb'': u''''}, 28988: {''comment'': None, ''updated'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''$25.00'', ''created'':
+            datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''published'': None,
+            ''choicecategory_id'': 43921, ''cost'': 25.0, ''sortorder'': 21025, ''multiplier'':
+            None, ''supplier'': None, ''id'': 28988, ''blurb'': u''''}, 28986: {''comment'':
+            None, ''updated'': datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''$5.00'',
+            ''created'': datetime.datetime(2001, 1, 1, 0, 0), ''price'': None, ''published'':
+            None, ''choicecategory_id'': 43921, ''cost'': 5.0, ''sortorder'': 21005,
+            ''multiplier'': None, ''supplier'': None, ''id'': 28986, ''blurb'': u''''}},
+            ''id'': 38286, ''defaultchoiceid'': 29002, ''_option_cache'': <Option:
+            4001: Donation amount>}, ''38287_1'': {''updated'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''name'': u''Donation target'', ''created'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''_state'': <django.db.models.base.ModelState object
+            at 0xbbfbb6c>, ''price'': 0, ''required'': False, ''option_id'': 28982,
+            ''selectedchoiceid'': 29002, ''qty'': 1, ''single'': False, ''product_id'':
+            38284, ''allowed_quantities'': u'''', ''published'': True, ''choices_orderby'':
+            u''cost'', ''defaultchoice_id'': 29002, ''choices'': {28984: {''comment'':
+            None, ''updated'': datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''Electronic
+            Frontier Foundation'', ''created'': datetime.datetime(2001, 1, 1, 0, 0),
+            ''price'': None, ''published'': None, ''choicecategory_id'': 43920, ''cost'':
+            0.0, ''sortorder'': 20000, ''multiplier'': None, ''supplier'': None, ''id'':
+            28984, ''blurb'': u''''}, 31930: {''comment'': None, ''updated'': datetime.datetime(2006,
+            5, 9, 20, 0, 17), ''name'': u''Other Open Source Project (please state
+            in Notes)'', ''created'': datetime.datetime(2006, 5, 9, 20, 0, 17), ''price'':
+            None, ''published'': None, ''choicecategory_id'': 43920, ''cost'': 0.0,
+            ''sortorder'': 20000, ''multiplier'': None, ''supplier'': None, ''id'':
+            31930, ''blurb'': u''''}, 29002: {''comment'': None, ''updated'': datetime.datetime(2001,
+            1, 1, 0, 0), ''name'': u''No donation'', ''created'': datetime.datetime(2001,
+            1, 1, 0, 0), ''price'': None, ''published'': None, ''choicecategory_id'':
+            43921, ''cost'': 0.0, ''sortorder'': 21000, ''multiplier'': None, ''supplier'':
+            None, ''id'': 29002, ''blurb'': u''''}}, ''id'': 38287, ''defaultchoiceid'':
+            29002, ''_option_cache'': <Option: 4000: Donation target>}, ''38288_1'':
+            {''updated'': datetime.datetime(2006, 1, 24, 20, 0, 17), ''name'': u''Warranty'',
+            ''created'': datetime.datetime(2006, 1, 24, 20, 0, 17), ''_state'': <django.db.models.base.ModelState
+            object at 0xbbfbbec>, ''price'': 0, ''required'': False, ''option_id'':
+            18048, ''selectedchoiceid'': 18049, ''qty'': 1, ''single'': False, ''product_id'':
+            38284, ''allowed_quantities'': u'''', ''published'': True, ''choices_orderby'':
+            u''cost'', ''defaultchoice_id'': 18049, ''choices'': {18049: {''comment'':
+            None, ''updated'': datetime.datetime(2001, 1, 1, 0, 0), ''name'': u''Standard
+            1yr full /3yr limited warranty'', ''created'': datetime.datetime(2001,
+            1, 1, 0, 0), ''price'': None, ''published'': None, ''choicecategory_id'':
+            43919, ''cost'': 0.0, ''sortorder'': 9001, ''multiplier'': None, ''supplier'':
+            None, ''id'': 18049, ''blurb'': u''''}}, ''id'': 38288, ''defaultchoiceid'':
+            18049, ''_option_cache'': <Option: 5000: Warranty>}, ''38300_1'': {''updated'':
+            datetime.datetime(2006, 1, 24, 20, 0, 17), ''name'': u''Base System'',
+            ''created'': datetime.datetime(2006, 1, 24, 20, 0, 17), ''_state'': <django.db.models.base.ModelState
+            object at 0xbbfbc6c>, ''price'': 95, ''required'': False, ''option_id'':
+            18849, ''selectedchoiceid'': 38296, ''qty'': 1, ''single'': False, ''product_id'':
+            38284, ''allowed_quantities'': u'''', ''published'': True, ''choices_orderby'':
+            u''cost'', ''defaultchoice_id'': 38293, ''choices'': {38289: {''comment'':
+            u''AS-EPC-2SB 299$ retail'', ''updated'': datetime.datetime(2006, 1, 24,
+            20, 0, 17), ''name'': u''Asus Eee PC 2G Surf 7inch 800MHz BLACK'', ''created'':
+            datetime.datetime(2006, 1, 24, 20, 0, 17), ''price'': None, ''published'':
+            None, ''choicecategory_id'': 43887, ''cost'': 270.0, ''sortorder'': 60,
+            ''multiplier'': None, ''supplier'': None, ''id'': 38289, ''blurb'': u''''},
+            38292: {''comment'': None, ''updated'': datetime.datetime(2006, 1, 24,
+            20, 0, 17), ''name'': u''Asus Eee PC 2G Surf 7inch 800MHz GREEN'', ''created'':
+            datetime.datetime(2006, 1, 24, 20, 0, 17), ''price'': None, ''published'':
+            None, ''choicecategory_id'': 43887, ''cost'': 270.0, ''sortorder'': 60,
+            ''multiplier'': None, ''supplier'': None, ''id'': 38292, ''blurb'': u''''},
+            38293: {''comment'': None, ''updated'': datetime.datetime(2006, 1, 24,
+            20, 0, 17), ''name'': u''Asus Eee PC 2G Surf 7inch 800MHz BLUE'', ''created'':
+            datetime.datetime(2006, 1, 24, 20, 0, 17), ''price'': None, ''published'':
+            None, ''choicecategory_id'': 43887, ''cost'': 270.0, ''sortorder'': 60,
+            ''multiplier'': None, ''supplier'': None, ''id'': 38293, ''blurb'': u''''},
+            38294: {''comment'': None, ''updated'': datetime.datetime(2006, 1, 24,
+            20, 0, 17), ''name'': u''Asus Eee PC 2G Surf 7inch 800MHz PINK'', ''created'':
+            datetime.datetime(2006, 1, 24, 20, 0, 17), ''price'': None, ''published'':
+            None, ''choicecategory_id'': 43887, ''cost'': 270.0, ''sortorder'': 60,
+            ''multiplier'': None, ''supplier'': None, ''id'': 38294, ''blurb'': u''''},
+            38295: {''comment'': None, ''updated'': datetime.datetime(2006, 1, 24,
+            20, 0, 17), ''name'': u''Asus Eee PC 2G Surf 7inch 800MHz PEARLWHITE'',
+            ''created'': datetime.datetime(2006, 1, 24, 20, 0, 17), ''price'': None,
+            ''published'': None, ''choicecategory_id'': 43887, ''cost'': 270.0, ''sortorder'':
+            60, ''multiplier'': None, ''supplier'': None, ''id'': 38295, ''blurb'':
+            u''''}, 38296: {''comment'': None, ''updated'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''name'': u''Asus Eee PC 4G Surf 7inch 900MHz GALAXY
+            BLACK'', ''created'': datetime.datetime(2006, 1, 24, 20, 0, 17), ''price'':
+            None, ''published'': None, ''choicecategory_id'': 43887, ''cost'': 340.0,
+            ''sortorder'': 60, ''multiplier'': None, ''supplier'': None, ''id'': 38296,
+            ''blurb'': u''''}, 38297: {''comment'': None, ''updated'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''name'': u''Asus Eee PC 4G Surf 7inch 900MHz PEARL
+            WHITE'', ''created'': datetime.datetime(2006, 1, 24, 20, 0, 17), ''price'':
+            None, ''published'': None, ''choicecategory_id'': 43887, ''cost'': 340.0,
+            ''sortorder'': 60, ''multiplier'': None, ''supplier'': None, ''id'': 38297,
+            ''blurb'': u''''}}, ''id'': 38300, ''defaultchoiceid'': 38293, ''_option_cache'':
+            <Option: 10: Base System>}, ''38285_1'': {''updated'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''name'': u''Operating System'', ''created'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''_state'': <django.db.models.base.ModelState object
+            at 0xbbfbcec>, ''price'': 0, ''required'': False, ''option_id'': 7, ''selectedchoiceid'':
+            40044, ''qty'': 1, ''single'': False, ''product_id'': 38284, ''allowed_quantities'':
+            u'''', ''published'': True, ''choices_orderby'': u''cost'', ''defaultchoice_id'':
+            38298, ''choices'': {38298: {''comment'': None, ''updated'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''name'': u''Linux (Asus)'', ''created'': datetime.datetime(2006,
+            1, 24, 20, 0, 17), ''price'': None, ''published'': None, ''choicecategory_id'':
+            43887, ''cost'': 0.0, ''sortorder'': 60, ''multiplier'': None, ''supplier'':
+            None, ''id'': 38298, ''blurb'': u''''}, 40044: {''comment'': u'''', ''updated'':
+            datetime.datetime(2011, 12, 26, 13, 40, 14, 768602), ''name'': u''Meego
+            Netbook'', ''created'': datetime.datetime(2008, 9, 22, 14, 29, 32, 211372),
+            ''price'': None, ''published'': None, ''choicecategory_id'': 43898, ''cost'':
+            0.0, ''sortorder'': 944, ''multiplier'': None, ''supplier'': None, ''id'':
+            40044, ''blurb'': u''''}}, ''id'': 38285, ''defaultchoiceid'': 38298,
+            ''_option_cache'': <Option: 880: Operating System>}}, ''_category_cache'':
+            <Categories: Netbooks>}]', comment: '', created: ! '2013-01-06 11:16:21.034048',
+        customer: 2, preferred_shipper: Any, processed: null, reference_number: PO#
+            142857 - Fred, referral_source: '', referral_type: flyer, ship_to_address: 54748,
+        shipping: '70.00', shipping_method: ground, shipping_payment: included, source: website,
+        special_instructions: 'Leave it by the front door, or by the gate if you can''t
+            get in', status: new, updated: ! '2013-01-06 11:24:35.649412'}
+    model: orders.order
+    pk: 54873

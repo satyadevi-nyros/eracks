@@ -1,0 +1,95 @@
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: src/_featured_images.minaml on 2016-01-17 at 20:27:49 PST(GMT-0800)  #}
+
+
+<div class="relative show-case-wrapper center-block col-sm-11">
+  <noscript>
+    {% with FeaturedImage_objects.published|random as i %}
+      <div class="product-slide">
+        <div class="col-sm-8 product-slide-left">
+          <a href="{{ i.link }}" title="{{ i.title }}" class="product-slide-img">
+            <img alt="{{ i.image }}" src='{{ i.image }}' class="img-responsive">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <div class="product-slide-inner">
+            <h3>{{ i.title|safe }}</h3>
+            <p class="details-description">
+              {{ i.caption|safe }}
+            </p>
+            {% if i.product %}
+              <h2 class="product-code">{{ i.product.name }}</h2>
+              <div class="product-price">
+                starting at $
+                {{ i.product.baseprice|floatformat:'2' }}
+              </div>
+              <a title="Jump to {{ i.product.name }} Configure" href="{{ i.link }}#config" class="btn btn-primary btn-stroke-dark btn-lg">
+                <i class="glyphicon glyphicon-shopping-cart"></i>
+                Configure Now
+              </a>
+              {% else %}
+              <a title="Go to Category" href="{{ i.link }}" class="btn btn-primary btn-stroke-dark btn-lg">
+                View Category Now
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endwith %}
+  </noscript>
+
+
+  <div class="owl-carousel owl-theme" id="productShowCase">
+    {% for i in FeaturedImage_objects.published %}
+      <div class="product-slide">
+        <div class="col-sm-8 product-slide-left">
+          <a href="{{ i.link }}" title="{{ i.title }}" class="product-slide-img">
+            <img alt="{{ i.image }}" src='{{ i.image }}' class="img-responsive">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <div class="product-slide-inner">
+            <h3>{{ i.title|safe }}</h3>
+            <p class="details-description">
+              {{ i.caption|safe }}
+            </p>
+            {% if i.product %}
+              <h2 class="product-code">{{ i.product.name }}</h2>
+              <div class="product-price">
+                starting at $
+                {{ i.product.baseprice|floatformat:'2' }}
+              </div>
+              <a title="Jump to {{ i.product.name }} Configure" href="{{ i.link }}#config" class="btn btn-primary btn-stroke-dark btn-lg">
+                <i class="glyphicon glyphicon-shopping-cart"></i>
+                Configure Now
+              </a>
+              {% else %}
+              <a title="Go to Category" href="{{ i.link }}" class="btn btn-primary btn-stroke-dark btn-lg">
+                View Category Now
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div style="clear:both"></div>
+
+  <noscript>
+    <a href="/" class="ps-nav" id="ps-next">
+      <i class="fa fa-angle-right"></i>
+    </a>
+    <a href="/" class="ps-nav" id="ps-prev">
+      <i class="fa fa-angle-left"></i>
+    </a>
+  </noscript>
+
+  <a class="ps-nav jsonly" id="ps-next">
+    <i class="fa fa-angle-right"></i>
+  </a>
+  <a class="ps-nav jsonly" id="ps-prev">
+    <i class="fa fa-angle-left"></i>
+  </a>
+</div>
