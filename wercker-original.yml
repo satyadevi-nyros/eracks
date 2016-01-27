@@ -1,28 +1,4 @@
-# box: python:2.7-slim
-# dev:
-#   steps:
-#     - pip-install
-#     - internal/watch:
-#         code: python manage.py runserver
-#         reload: true
-# # Build definition
-# build:
-#   # The steps that will be executed on build
-#   steps:
-#     # A step that executes `pip install` command
-#     - pip-install
-
-#     # A custom script step, name value is used in the UI
-#     # and the code value contains the command that get executed
-#     - script:
-#         name: python unit test
-#         code: |
-#           python manage.py test
-
-
-
-
-box: python:2.7-slim
+box: ubuntu:trusty
 
 #build:
 #    steps:
@@ -49,6 +25,12 @@ build:
                   ls -l conf
                   cd conf
                   
+                  # no 'sudo' - try without it
                   ./salt-requirements.sh
+                  #me=`id -un`
+                  #echo I am $me
+                  #salt-call --local --pillar-root=$me --file-root=`pwd` state.template requirements.sls 
                   python manage.py test
+                  #pip install -r requirements.txt
+                  #pip install psycopg2
 
