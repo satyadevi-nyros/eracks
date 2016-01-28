@@ -1,4 +1,4 @@
-box: python-slim
+box: ubuntu:trusty
 
 #build:
 #    steps:
@@ -30,7 +30,7 @@ build:
                   #me=`id -un`
                   #echo I am $me
                   #salt-call --local --pillar-root=$me --file-root=`pwd` state.template requirements.sls 
-
+                  python manage.py test
                   #pip install -r requirements.txt
                   #pip install psycopg2
-                  python manage.py test
+
