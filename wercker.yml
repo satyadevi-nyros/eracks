@@ -11,8 +11,8 @@ box: ubuntu:trusty
 
 build:
     steps:
-        - install-packages:
-            packages: openssh-client wget
+        # - install-packages:
+        #     packages: openssh-client wget
 
         - script:
                 name: python unit test
