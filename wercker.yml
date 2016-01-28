@@ -44,12 +44,12 @@ build:
                   # echo deb http://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest trusty main >/etc/apt/sources.list.d/salt.list
                   # apt-get -y update && apt-get -y install salt-minion
                   python --version
-                  salt-call --version
-                  ls -l eracks
-                  ls -l conf
-                  cd conf
+                  # salt-call --version
+                  # ls -l eracks
+                  # ls -l conf
+                  # cd conf
                   
-                  ./salt-requirements.sh
+                  # ./salt-requirements.sh
                   pip list
                   python manage.py test
 
