@@ -1,0 +1,35 @@
+box: ubuntu:trusty
+
+#build:
+#    steps:
+#        - virtualenv
+
+#build:
+#    steps:
+#        - pip-install
+
+build:
+  steps:
+    - pip-install
+
+    - script:
+        name: python unit test
+        code: |
+          wget -O - https://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
+          echo deb http://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest trusty main >/etc/apt/sources.list.d/salt.list
+          apt-get -y update && apt-get -y install salt-minion
+          python --version
+          salt-call --version
+          ls -l eracks
+          ls -l conf
+          cd conf
+                  
+          # no 'sudo' - try without it
+          ./salt-requirements.sh
+          #me=`id -un`
+          #echo I am $me
+          #salt-call --local --pillar-root=$me --file-root=`pwd` state.template requirements.sls 
+          python manage.py test
+          #pip install -r requirements.txt
+          #pip install psycopg2
+
