@@ -11,7 +11,7 @@ box: ubuntu:trusty
 build:
     steps:
         - install-packages:
-            # packages: openssh-client wget
+            packages: openssh-client wget
 
         - script:
                 name: python unit test
@@ -30,7 +30,8 @@ build:
                   #me=`id -un`
                   #echo I am $me
                   #salt-call --local --pillar-root=$me --file-root=`pwd` state.template requirements.sls 
+                  pip list
                   python manage.py test
-
                   #pip install -r requirements.txt
                   #pip install psycopg2
+                  
