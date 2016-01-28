@@ -50,5 +50,6 @@ build:
                   cd conf
                   
                   ./salt-requirements.sh
+                  pip list
                   python manage.py test
 
