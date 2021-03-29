@@ -93,7 +93,7 @@ psycopg2==2.6.1
 ptyprocess==0.5
 py-w3c==0.1.2
 pyflakes==1.0.0
-Pygments==2.0.2
+Pygments==2.7.4
 pyjade==3.1.0
 PyJWT==1.4.0
 pylint==1.5.1
