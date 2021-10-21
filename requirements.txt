@@ -2,7 +2,7 @@ alabaster==0.7.6
 argh==0.26.1
 astroid==1.4.1
 autopep8==1.2.1
-Babel==2.1.1
+Babel==2.9.1
 BeautifulSoup==3.2.1
 bleach==1.4.2
 chardet==2.3.0
