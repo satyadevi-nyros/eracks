@@ -64,7 +64,7 @@ hamlpy==0.82.2
 html2text==2014.12.29
 html5lib==0.9999999
 httplib2==0.9.2
-ipython==4.0.1
+ipython==7.16.3
 ipython-genutils==0.1.0
 Jinja2==2.8
 jslint==0.6.0
