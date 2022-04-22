@@ -97,7 +97,7 @@ Pygments==2.0.2
 pyjade==3.1.0
 PyJWT==1.4.0
 pylint==1.5.1
-PyPDF2==1.25.1
+PyPDF2==1.27.5
 pyquery==1.2.9
 python-gnupg==0.3.8
 python-memcached==1.57
